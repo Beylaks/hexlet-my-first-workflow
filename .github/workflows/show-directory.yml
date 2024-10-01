@@ -3,5 +3,5 @@ on: push
 jobs:
   build:
     runs-on: ubuntu
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v2
       - run: make say-hello
