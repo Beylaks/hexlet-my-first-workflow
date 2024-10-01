@@ -2,6 +2,6 @@ name: show-directory
 on: push
 jobs:
   build:
-    runs-on: ubuntu
-      - uses: actions/checkout@v2
+    runs-on: ubuntu-latest
+      - uses: actions/checkout@v4
       - run: make say-hello
